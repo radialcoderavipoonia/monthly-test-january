@@ -11,16 +11,567 @@
 </head>
 <!-- custom css link  -->
 <link rel="stylesheet" href="./assets/css/style.css">
+<!-- root css  -->
+<link rel="stylesheet" href="./assets/css/Root.css">
+<!-- favicon  -->
+<link rel="shortcut icon" href="./assets/images/svg/page_logo.svg" type="image/x-icon">
 </head>
 
 <body>
+    <!-- header  -->
+    <header id="home" class="d-flex flex-column">
+        <div class="bg_nav position-relative z-3">
+            <div class="custom_container mx-auto">
+                <!-- NAV BAR  -->
+                <nav class="d-flex justify-content-between align-items-center w-100 py-2">
+                    <a href="#">
+                        <img src="./assets/images/svg/page_logo.svg" alt="page logo">
+                    </a>
 
+                    <ul class="d-flex align-items-center justify-content-center li_gap flex-lg-row flex-column mb-0 small_screen_navbar p-0"
+                        id="nav">
+                        <li><a onclick="navresponsive()" class="text-white nav_li position-relative" href="#">My
+                                Home</a>
+                        </li>
+                        <li><a onclick="navresponsive()" class=" text-white nav_li position-relative "
+                                href="#bestnft">About</a>
+                        </li>
+                        <li><a onclick="navresponsive()" class=" text-white nav_li position-relative "
+                                href="#typesofnft">Team</a>
+                        </li>
+                        <li><a onclick="navresponsive()" class="text-white me-lg-2 nav_li position-relative "
+                                href="#activity">RoadMap</a>
+                        </li>
+                        <li><a onclick="navresponsive()" class="text-white me-lg-2 nav_li position-relative "
+                                href="#activity">FAQ</a>
+                        </li>
+                        <li class="d-flex icon_gap px-1 ms-lg-4 ">
+                            <a href="https://www.instagram.com/" target="_blank"><img
+                                    src="./assets/images/svg/insta_icon.svg" alt="insta icon" class="social_icon"></a>
+                            <a href="https://discord.com/" target="_blank"><img
+                                    src="/assets/images/svg/discord_icon.svg" alt="discord icon"
+                                    class="social_icon"></a>
+                            <a href="https://twitter.com/" target="_blank"><img
+                                    src="./assets/images/svg/twitter_icon.svg" alt="twitter icon"
+                                    class="social_icon"></a>
+                        </li>
+                        <li>
+                            <button
+                                class="text-white ms-lg-2 d-flex justify-content-center align-items-center position-relative signin_button pulse">Connect
+                                Wallet</button>
+                        </li>
+                    </ul>
+                    <label for="menuicon" onclick="navresponsive()" class="d-lg-none" id="menuicons">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </label>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- hero section  -->
+    <div class="hero_bg">
+    </div>
+    <!-- Trippy goat section  -->
+    <div class="bg_trippy_goat pt-3 pb-lg-5">
+        <div class="trippy_goat_container mx-auto pb-3">
+            <h2 class="text-white text-center fs_4xl ff_black_han_sans fw-normal lh_normal mb-0">Trippy Goat</h2>
+            <p class="text-center text-white fs_xs ff_m_plus fw-normal lh_normal pt-3 mb-0 pb-lg-3">Trippy Goats is a
+                limited
+                collection of 5656 Psychedelic goats, randomly generated from over 40 hand drawn traits. Each
+                goat comes with ownership and commercial usage rights.</p>
+            <button
+                class="mint_now_button mt-4 d-flex justify-content-center align-items-center mx-auto mb-xl-5 text-white">Mint
+                Now</button>
+        </div>
+    </div>
 
+    <!-- about us section  -->
+    <div class="my-sm-5 mt-3">
+        <div class="custom_container">
+            <div class="row flex-lg-row flex-column about_us_row_gap py-4 my-lg-3 align-items-center">
+                <div class="col-lg-4 col-md-6 col-sm-8 col-10">
+                    <img src="./assets/images/webp/about_us_img.webp" alt="abou us img" class="about_us_img">
+                </div>
+                <div class="col-lg-6 col-10">
+                    <h2 class="h2_heading text-white text-lg-start text-center">About Us</h2>
+                    <p class="para pb-lg-4 mb-0 text-lg-start text-center">Hi goaties call me legion with a pen. From an
+                        early age I was influenced
+                        by my selfless loving mother who inspired me to
+                        become a pet and art lover. As young as I was then, My mother would read goat story to me even
+                        though I didn't
+                        understand it. During the course of time I have played countless video games, watched movies and
+                        read books on pets
+                        particularly on goat.I made this art to portray my illustration of the psychedelic goats and I
+                        hope you can appreciate
+                        that everyone has a history. With regards to why non-fungibles.</p>
+                    <button
+                        class="text-white d-flex justify-content-center align-items-center read_more_button mt-4 mx-lg-0 mx-auto">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Roadmap section  -->
+    <div class="my-lg-3 py-lg-5 pt-4">
+        <div class="roadmap_container mx-auto">
+            <h2 class="text-center h2_heading text-white mb-0 pb-1">Roadmap</h2>
+            <div class="d-flex pt-lg-5 mt-sm-5 mt-3">
 
+                <div class="roadmap_line position-relative">
+                    <div class="circle_1"></div>
+                    <div class="circle_2"></div>
+                    <div class="circle_3"></div>
+                </div>
+
+                <div>
+                    <div class="percentage_box1 mb-2 active">
+                        <p
+                            class="color_orange ff_black_han_sans fs_2xl fw-normal lh_normal mb-0 text-lg-start text-center">
+                            10%</p>
+                        <p
+                            class="text-white ff_black_han_sans fw-normal lh_normal mb-0 fs_md pt-2 text-lg-start text-center">
+                            Giveaway of Goat NFT</p>
+                        <p class="para mb-0 pt-2 text-lg-start text-center">Feugiat felis, egestas cursus et ut lacus
+                            viverra. Rhoncus ornare
+                            tortor sociis vulputate arcu pellentesque eu ornare
+                            tempus. Et mi arcu quam tellus feugiat quisque urna velit.</p>
+                    </div>
+
+                    <div class="percentage_box mt-md-4 mt-2 mb-2">
+                        <p
+                            class="color_orange ff_black_han_sans fs_2xl fw-normal lh_normal mb-0 text-lg-start text-center">
+                            50%</p>
+                        <p
+                            class="text-white ff_black_han_sans fw-normal lh_normal mb-0 fs_md pt-2 text-lg-start text-center">
+                            Merch store</p>
+                        <p class="para mb-0 pt-2 text-lg-start text-center">Adipiscing vehicula dui sollicitudin
+                            venenatis. A feugiat iaculis amet
+                            magna. Odio elementum, purus egestas convallis et
+                            vulputate. Dictumst vitae nulla aliquam, vivamus nunc. Volutpat nunc non platea mauris sem
+                            dui scelerisque.</p>
+                    </div>
+
+                    <div class="percentage_box mt-md-4 mt-2">
+                        <p
+                            class="color_orange ff_black_han_sans fs_2xl fw-normal lh_normal mb-0 text-lg-start text-center">
+                            100%</p>
+                        <p
+                            class="text-white ff_black_han_sans fw-normal lh_normal mb-0 fs_md pt-2 text-lg-start text-center">
+                            Charity donation</p>
+                        <p class="para mb-0 pt-2 text-lg-start text-center">Condimentum tristique sit pretium ipsum. Et
+                            egestas venenatis
+                            consectetur ornare <span class="d-lg-inline-block">ipsum elementum nulla imperdiet
+                                imperdiet.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- grid section  -->
+    <div class="w-100 h-100 transform_grid py-lg-5">
+        <div class="d-flex justify-content-between align-items-center grid_gap  overflow_x_auto w-100 h-100 scrollbar-style">
+            <div class="d-flex flex-column">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid__img_1.png" alt="grid img 1" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_2.png" alt="grid img 2" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid__img_1.png" alt="grid img 3" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column pt-5">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_3.png" alt="grid img 4" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_4.png" alt="grid img 5" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_5.png" alt="grid img 6" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_6.png" alt="grid img 7" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_7.png" alt="grid img 8" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_8.png" alt="grid img 9" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column pt-5">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_9.png" alt="grid img 10" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_10.png" alt="grid img 11" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_11.png" alt="grid img 12" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_12.png" alt="grid img 13" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_13.png" alt="grid img 14" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_14.png" alt="grid img 15" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column pt-5">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_15.png" alt="grid img 16" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_16.png" alt="grid img 17" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_17.png" alt="grid img 18" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_10.png" alt="grid img 19" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_5.png" alt="grid img 20" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_3.png" alt="grid img 21" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid__img_1.png" alt="grid img 1" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_2.png" alt="grid img 2" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid__img_1.png" alt="grid img 3" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column pt-5">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_3.png" alt="grid img 4" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_4.png" alt="grid img 5" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_5.png" alt="grid img 6" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_6.png" alt="grid img 7" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_7.png" alt="grid img 8" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_8.png" alt="grid img 9" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column pt-5">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_9.png" alt="grid img 10" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_10.png" alt="grid img 11" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_11.png" alt="grid img 12" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_12.png" alt="grid img 13" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_13.png" alt="grid img 14" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_14.png" alt="grid img 15" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column pt-5">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_15.png" alt="grid img 16" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_16.png" alt="grid img 17" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_17.png" alt="grid img 18" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="grid_img">
+                    <img src="./assets/images/png/grid_img_10.png" alt="grid img 19" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_5.png" alt="grid img 20" class="w-100">
+                </div>
+                <div class="grid_img pt_29">
+                    <img src="./assets/images/png/grid_img_3.png" alt="grid img 21" class="w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mint nft section  -->
+    <div class="mint_nft_bg">
+        <div class="mint_nft_container mx-auto mt-sm-5 mt-4 mb-2 py-sm-5 py-4">
+            <h2 class="h2_heading text-white text-center mb-0 pb-lg-1">Mint NFT</h2>
+            <div
+                class="d-flex flex-lg-row flex-column justify-content-between align-items-center transform_mint_section mint_col_gap pt-sm-4 pt-md-2 mt-2 pb-lg-5 mb-lg-4">
+                <div class="mint_nft_image_box">
+                    <img src="./assets/images/png/mint_nft_img.png" alt="mint nft img" class="mint_nft_img">
+                </div>
+                <div class="nft_counter_bg">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <img src="./assets/images/svg/negative_button.svg" alt="negative button icon"
+                            class="cursor_pointer">
+                        <p class="text-white mb-0 fw-normal lh_normal ff_black_han_sans fs_xl px_35">0 / 5656</p>
+                        <img src="./assets/images/svg/positive_button.svg" alt="positive button icon"
+                            class="cursor_pointer">
+                    </div>
+                    <p class="text-white text-center mb-0 pt-3 mt-1 opacity_08 fw-semibold lh_normal ff_m_plus fs_sm">
+                        Max 4 NFTs
+                        per transaction</p>
+                    <p class="text-white text-center mb-0 pt-2 opacity_08 fw-semibold lh_normal ff_m_plus fs_sm">75 ADA
+                        per NFT</p>
+                    <div class="d-flex justify-content-center pt-md-5 pt-sm-4 pt-3 mt-2">
+                        <button class="mint_button d-flex justify-content-center align-items-center text-white">Mint
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team section  -->
+    <div class="team_container mx-auto mb-lg-5 pb-lg-5 pb-4">
+        <h2 class="h2_heading text-center text-white pt-3 mb-2">Team</h2>
+        <div
+            class="d-flex flex-lg-row flex_wrap justify-content-center align-items-center team_col_gap py-lg-5 py-sm-4 py-3 mb-sm-2 mt-1">
+            <div class="w-sm-100 w_70 w_80">
+                <img src="./assets/images/png/team_img1.png" alt="team img 1" class="team_img">
+                <div class="bg_orange_box1 py-md-3 py-1">
+                    <p class="text-center text-white team_card_name mb-0">Vilar</p>
+                    <p class="team_card_designation text-center text-white mb-0 pt-md-1">Founder & Developer</p>
+                </div>
+            </div>
+            <div class="w-sm-100 w_70 w_80">
+                <img src="./assets/images/png/team_img_2.png" alt="team img 2" class="team_img">
+                <div class="bg_orange_box2 py-md-3 py-1">
+                    <p class="text-center text-white team_card_name mb-0">Arwen</p>
+                    <p class="team_card_designation text-center text-white mb-0 pt-md-1">Co-founder & Designer</p>
+                </div>
+            </div>
+            <div class="w-sm-100 w_70 w_80">
+                <img src="./assets/images/png/team_img_3.png" alt="team img 3" class="team_img">
+                <div class="bg_orange_box3 py-md-3 py-1">
+                    <p class="text-center text-white team_card_name mb-0">John</p>
+                    <p class="team_card_designation text-center text-white mb-0 pt-md-1">Developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- faqs section  -->
+    <div class="faq_bg pb-lg-5 pb-sm-1 mb-5">
+        <div class="faq_container mx-auto">
+            <h2 class="h2_heading text-center text-white pt-2 mt-1 mb-lg-5">FAQs</h2>
+            <div class="pt-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are Trippy Goats?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="mb-0 para">Trippy goats are 5656 goats looking to trip with everyone in the
+                                    metaverse. This
+                                    genesis collection will give exclusive
+                                    access to the trippyverse. The mission is to create a community who seek the peak,
+                                    while finding a peace of mind. Save
+                                    the world. Lets invade the blockchain farm while trippin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                When will I be able to mint a trippy Goat NFT?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="mb-0 para">Trippy goats are 5656 goats looking to trip with everyone in the
+                                    metaverse. This
+                                    genesis collection will give exclusive
+                                    access to the trippyverse. The mission is to create a community who seek the peak,
+                                    while finding a peace of mind. Save
+                                    the world. Lets invade the blockchain farm while trippin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Why do I have to own a trippy Goat NFT?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="mb-0 para">Trippy goats are 5656 goats looking to trip with everyone in the
+                                    metaverse. This
+                                    genesis collection will give exclusive
+                                    access to the trippyverse. The mission is to create a community who seek the peak,
+                                    while finding a peace of mind. Save
+                                    the world. Lets invade the blockchain farm while trippin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Do I need to know something else?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="mb-0 para">Trippy goats are 5656 goats looking to trip with everyone in the
+                                    metaverse. This
+                                    genesis collection will give exclusive
+                                    access to the trippyverse. The mission is to create a community who seek the peak,
+                                    while finding a peace of mind. Save
+                                    the world. Lets invade the blockchain farm while trippin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Who’s the Team?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="mb-0 para">Trippy goats are 5656 goats looking to trip with everyone in the
+                                    metaverse. This
+                                    genesis collection will give exclusive
+                                    access to the trippyverse. The mission is to create a community who seek the peak,
+                                    while finding a peace of mind. Save
+                                    the world. Lets invade the blockchain farm while trippin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section  -->
+    <div class="footer_bg pt-lg-5 pt-2 mt-5">
+        <div class="footer_container mx-auto pt-4">
+            <div class="d-flex justify-content-center flex-column align-items-center">
+                <a href="#"><img src="./assets/images/svg/footer_logo.svg" alt="footer logo" class="footer_logo"></a>
+                <p class="pt-3 mb-0 fw-normal lh_normal text-white ff_black_han_sans fs_lg">Trippy Goat</p>
+                <p class="mb-0 pt-lg-4 mt-2 text-white text-center fw-normal lh_normal fs_xs">Vitae cras pellentesque
+                    amet,
+                    pretium ut consectetur pretium orci arcu. Aenean turpis ipsum nunc adipiscing fusce enim,
+                    eget rhoncus at.</p>
+                <div
+                    class="d-flex justify-content-center align-items-center footer_icon_gap pt-lg-4 pt-2 mt-2 mb-lg-5 mb-3 pb-3">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/svg/insta_icon.svg"
+                            alt="insta icon" class="social_icon"></a>
+                    <a href="https://discord.com/" target="_blank"><img src="/assets/images/svg/discord_icon.svg"
+                            alt="discord icon" class="social_icon"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="./assets/images/svg/twitter_icon.svg"
+                            alt="twitter icon" class="social_icon"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_line"></div>
+        <p class="text-center py-2 my-1 text-white copyright_text">copyright@<span id="copyright-year"></span></p>
+    </div>
     <!-- bootstrap js script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <!-- active percentage box -->
+    <script>
+        // Add click event listeners to all elements with the class "percentage_box"
+        var percentageBoxes = document.querySelectorAll('.percentage_box');
+
+        percentageBoxes.forEach(function (box) {
+            box.addEventListener('click', function () {
+                // Remove "active" class from all elements
+                percentageBoxes.forEach(function (innerBox) {
+                    innerBox.classList.remove('active');
+                });
+
+                // Add "active" class to the clicked element
+                box.classList.add('active');
+            });
+        });
+    </script>
+    <script>
+        // NAV BAR JS
+        const a = document.getElementById("nav")
+        const b = document.getElementById("menuicons")
+        function navresponsive() {
+            a.classList.toggle("show")
+            document.body.classList.toggle("overflow_hidden")
+            document.body.classList.toggle("vh-100")
+            b.classList.toggle("menuicons")
+        }
+        // BACK TO TOP 
+        document.addEventListener('DOMContentLoaded', function () {
+            var backToTopButton = document.getElementById('back-to-top');
+            // Show/hide the button based on scroll position
+            window.onscroll = function () {
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    backToTopButton.style.display = 'block';
+                } else {
+                    backToTopButton.style.display = 'none';
+                }
+            };
+            // Scroll to the top when the button is clicked
+            backToTopButton.addEventListener('click', function () {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+            });
+        });
+        // FOOTER YEAR 
+        accordionItemHeaders[0].click();
+        // year changer js code --------------------
+        document.addEventListener("DOMContentLoaded", function () {
+            var currentYear = new Date().getFullYear();
+            document.getElementById("copyright-year").textContent = currentYear;
+        });
+    </script>
 </body>
 
 </html>
