@@ -74,7 +74,7 @@
     <div class="hero_bg">
     </div>
     <!-- Trippy goat section  -->
-    <div class="bg_trippy_goat pt-3 pb-lg-5">
+    <div class="bg_trippy_goat pt-3 pb-lg-5 position-relative z-1">
         <div class="trippy_goat_container mx-auto pb-3">
             <h2 class="text-white text-center fs_4xl ff_black_han_sans fw-normal lh_normal mb-0">Trippy Goat</h2>
             <p class="text-center text-white fs_xs ff_m_plus fw-normal lh_normal pt-3 mb-0 pb-lg-3">Trippy Goats is a
@@ -82,8 +82,11 @@
                 collection of 5656 Psychedelic goats, randomly generated from over 40 hand drawn traits. Each
                 goat comes with ownership and commercial usage rights.</p>
             <button
-                class="mint_now_button mt-4 d-flex justify-content-center align-items-center mx-auto mb-xl-5 text-white">Mint
+                class="mint_now_button pulse mt-4 d-flex justify-content-center align-items-center mx-auto mb-xl-5 text-white">Mint
                 Now</button>
+        </div>
+        <div class="position-absolute circle_position">
+            <div class="circle "></div>
         </div>
     </div>
 
@@ -107,14 +110,14 @@
                         hope you can appreciate
                         that everyone has a history. With regards to why non-fungibles.</p>
                     <button
-                        class="text-white d-flex justify-content-center align-items-center read_more_button mt-4 mx-lg-0 mx-auto">Read
+                        class="text-white pulse d-flex justify-content-center align-items-center read_more_button mt-4 mx-lg-0 mx-auto">Read
                         More</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- Roadmap section  -->
-    <div class="my-lg-3 py-lg-5 pt-4">
+    <div class="my-lg-3 py-lg-5 pt-4 position-relative z-1">
         <div class="roadmap_container mx-auto">
             <h2 class="text-center h2_heading text-white mb-0 pb-1">Roadmap</h2>
             <div class="d-flex pt-lg-5 mt-sm-5 mt-3">
@@ -168,10 +171,14 @@
                 </div>
             </div>
         </div>
+        <div class="position-absolute circle_position_roadmap">
+            <div class="circle "></div>
+        </div>
     </div>
     <!-- grid section  -->
     <div class="w-100 h-100 transform_grid py-lg-5">
-        <div class="d-flex justify-content-between align-items-center grid_gap  overflow_x_auto w-100 h-100 scrollbar-style">
+        <div
+            class="d-flex justify-content-between align-items-center grid_gap  overflow_x_auto w-100 h-100 scrollbar-style">
             <div class="d-flex flex-column">
                 <div class="grid_img">
                     <img src="./assets/images/png/grid__img_1.png" alt="grid img 1" class="w-100">
@@ -327,9 +334,10 @@
                 </div>
             </div>
         </div>
+      
     </div>
     <!-- mint nft section  -->
-    <div class="mint_nft_bg">
+    <div class="mint_nft_bg position-relative z-1">
         <div class="mint_nft_container mx-auto mt-sm-5 mt-4 mb-2 py-sm-5 py-4">
             <h2 class="h2_heading text-white text-center mb-0 pb-lg-1">Mint NFT</h2>
             <div
@@ -351,11 +359,15 @@
                     <p class="text-white text-center mb-0 pt-2 opacity_08 fw-semibold lh_normal ff_m_plus fs_sm">75 ADA
                         per NFT</p>
                     <div class="d-flex justify-content-center pt-md-5 pt-sm-4 pt-3 mt-2">
-                        <button class="mint_button d-flex justify-content-center align-items-center text-white">Mint
+                        <button
+                            class="mint_button pulse d-flex justify-content-center align-items-center text-white">Mint
                             Now</button>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="position-absolute circle_position_mint">
+            <div class="circle "></div>
         </div>
     </div>
     <!-- team section  -->
@@ -387,7 +399,7 @@
         </div>
     </div>
     <!-- faqs section  -->
-    <div class="faq_bg pb-lg-5 pb-sm-1 mb-5">
+    <div class="faq_bg pb-lg-5 pb-sm-1 mb-5 position-relative z-1">
         <div class="faq_container mx-auto">
             <h2 class="h2_heading text-center text-white pt-2 mt-1 mb-lg-5">FAQs</h2>
             <div class="pt-4">
@@ -490,10 +502,22 @@
                 </div>
             </div>
         </div>
+        <div class="position-absolute faq_left_img_position">
+            <img src="./assets/images/png/faq_left_img.png" alt="faq left img" class="faq_left_img">
+        </div>
+        <div class="position-absolute faq_right_img_position">
+            <img src="./assets/images/png/faq_top_right_img.png" alt="faq top right img" class="faq_top_right_img">
+        </div>
+        <div class="position-absolute circle_position_faq_right">
+            <div class="circle "></div>
+        </div>
+        <div class="position-absolute circle_position_faq_left">
+            <div class="circle "></div>
+        </div>
     </div>
 
     <!-- footer section  -->
-    <div class="footer_bg pt-lg-5 pt-2 mt-5">
+    <div class="footer_bg pt-lg-5 pt-2 mt-5 position-relative z-1 overflow-hidden">
         <div class="footer_container mx-auto pt-4">
             <div class="d-flex justify-content-center flex-column align-items-center">
                 <a href="#"><img src="./assets/images/svg/footer_logo.svg" alt="footer logo" class="footer_logo"></a>
@@ -515,6 +539,14 @@
         </div>
         <div class="footer_line"></div>
         <p class="text-center py-2 my-1 text-white copyright_text">copyright@<span id="copyright-year"></span></p>
+        <div class="position-absolute footer_left_bottom_img_position">
+            <img src="./assets/images/png/footer_left_bottom.png" alt="footerleft bottom img"
+                class="footer_left_bottom_img">
+        </div>
+        <div class="position-absolute footer_right_bottom_img_position">
+            <img src="./assets/images/png/footer_right_bottom.png" alt="footerleft bottom img"
+                class="footer_left_bottom_img">
+        </div>
     </div>
     <!-- bootstrap js script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

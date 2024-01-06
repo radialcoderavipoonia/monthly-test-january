@@ -507,23 +507,29 @@
     font-family: 'M PLUS 1',
         sans-serif;
 }
-.grid_gap{
+
+.grid_gap {
     gap: 15px;
 }
-.grid_img{
+
+.grid_img {
     width: 203px !important;
     height: 251px !important;
 }
-.overflow_x_auto{
+
+.overflow_x_auto {
     overflow-x: auto;
     overflow-y: hidden;
 }
-.pt_29{
+
+.pt_29 {
     padding-top: 29px;
 }
-.transform_grid{
+
+.transform_grid {
     transform: translateX(-50px);
 }
+
 .scrollbar-style::-webkit-scrollbar-thumb {
     border-radius: 0px;
     background: #FF7D01;
@@ -533,6 +539,74 @@
     border-radius: 10px;
     background: transparent !important;
     height: 0px;
+}
+
+.footer_left_bottom_img {
+    width: 431px;
+    height: 113px;
+}
+
+.footer_left_bottom_img_position {
+    left: -20px;
+    bottom: -20px;
+}
+
+.footer_right_bottom_img_position {
+    right: -20px;
+    bottom: -20px;
+}
+
+.faq_left_img {
+    width: 327px;
+    height: 206px;
+}
+
+.faq_left_img_position {
+    top: 50%;
+    left: -50px;
+}
+
+.faq_top_right_img {
+    width: 244px;
+    height: 182px;
+}
+
+.faq_right_img_position {
+    top: -120px;
+    right: -50px;
+}
+
+.circle {
+    width: 304px;
+    height: 304px;
+    border-radius: 304px;
+    background: #FDFE7C;
+    filter: blur(280px);
+}
+
+.circle_position {
+    bottom: 0;
+    right: -127px;
+}
+
+.circle_position_roadmap {
+    top: 0;
+    left: -77px;
+}
+
+.circle_position_mint {
+    top: 0;
+    right: -24px;
+}
+
+.circle_position_faq_right {
+    top: -10%;
+    right: -24px;
+}
+
+.circle_position_faq_left {
+    left: -63px;
+    top: 50%;
 }
 
 @media (max-width:1279.98px) {
@@ -579,6 +653,7 @@
         backdrop-filter: blur(70px);
         z-index: 152;
     }
+
     .transform_grid {
         transform: translateX(0px);
     }
@@ -709,6 +784,7 @@
         width: 244.393px;
         height: 242.868px;
     }
+
     .footer_logo {
         width: 139.937px;
         height: 134.918px;
@@ -743,10 +819,12 @@
         width: 245px;
         height: 242px;
     }
+
     .footer_logo {
         width: 100px;
         height: 100px;
     }
+
     .accordion-item {
         margin-bottom: 10px !important;
     }
